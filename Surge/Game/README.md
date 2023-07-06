@@ -42,7 +42,7 @@
 #### 规则链接
 **MASTER分支
 
-https://raw.githubusercontent.com/ZCXYHQ/Rule/edit/main/Surge/Game/Game.list
+https://raw.githubusercontent.com/ZCXYHQ/Rule/main/Surge/Game/Game.list
 
 **MASTER分支 CDN
 
