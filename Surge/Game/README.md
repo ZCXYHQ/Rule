@@ -46,7 +46,7 @@ https://raw.githubusercontent.com/ZCXYHQ/Rule/main/Surge/Game/Game.list
 
 **MASTER分支 CDN
 
-https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Game/Game.list
+https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@master/Surge/Game/Game.list
 
 ## 子规则/排除规则
 
