@@ -8,21 +8,21 @@
 
 ### Surge
 ```
-DOMAIN-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/apple_cdn.conf,[Replace with your policy]
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_CDN.conf,[Replace with your policy]
 ```
 ### Clash
 ```
 rule-providers:
-  apple_cdn:
+  Apple_CDN:
     type: http
     behavior: domain
     format: text
     interval: 43200
-    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/apple_cdn.txt
+    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_CDN.txt
     path: ./Rules/apple_cdn.txt
 
 rules:
-  - RULE-SET,apple_cdn,[Replace with your policy]
+  - RULE-SET,Apple_CDN,[Replace with your policy]
 ```
 
 ## Global Stream
@@ -30,28 +30,28 @@ rules:
 
 ### Surge
 ```
-RULE-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/stream.conf,[Replace with your policy]
-RULE-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/stream_ip.conf,[Replace with your policy]
+RULE-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Stream.conf,[Replace with your policy]
+RULE-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Stream_IP.conf,[Replace with your policy]
 ```
 ### Clash
 ```
 rule-providers:
-  stream:
+  Stream:
     type: http
     behavior: classical
     format: text
     interval: 43200
-    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/stream.conf
+    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Stream.conf
     path: ./Rules/stream.txt
-  stream_ip:
+  Stream_IP:
     type: http
     behavior: classical
     format: text
     interval: 43200
-    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/stream_ip.conf
+    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Stream_IP.conf
     path: ./Rules/stream_ip.txt
 
 rules:
-  - RULE-SET,stream,[Replace with your policy]
-  - RULE-SET,stream_ip,[Replace with your policy]
+  - RULE-SET,Stream,[Replace with your policy]
+  - RULE-SET,Stream_IP,[Replace with your policy]
 ```
