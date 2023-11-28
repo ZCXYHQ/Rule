@@ -7,13 +7,13 @@
 - 数据来源 felixonmars/dnsmasq-china-list
 
 ```
-
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/apple_cdn.conf,[Replace with your policy]
 ```
 
 ## Global Stream
 - 描述：包含 4gtv、AbemaTV、All4、Amazon Prime Video、Apple TV、Apple Music TV、Bahamut、BBC、Bilibili Intl、DAZN、Deezer、Disney+、Discovery+、DMM、encoreTVB、Fox Now、Fox+、HBO GO/Now/Max/Asia、Hulu、HWTV、JOOX、Jwplayer、KKBOX、KKTV、Line TV、Naver TV、myTV Super、Netflix、niconico、Now E、Paramount+、PBS、Peacock、Pandora、PBS、Pornhub、SoundCloud、PBS、Spotify、TaiwanGood、Tiktok Intl、Twitch、ViuTV、ShowTime、iQiYi Global、Himalaya Podcast、Overcast、WeTV 的规则组
 
 ```
-RULE-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/stream.conf,[Replace with your policy]
-RULE-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/stream_ip.conf,[Replace with your policy]
+RULE-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/stream.conf,[Replace with your policy]
+RULE-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/stream_ip.conf,[Replace with your policy]
 ```
