@@ -24,6 +24,26 @@ rule-providers:
 rules:
   - RULE-SET,Apple_CDN,[Replace with your policy]
 ```
+## Apple Service
+- 描述：该文件包含Apple, Inc.在中国大陆没有PoP的域名。
+### Surge
+```
+RULE-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_Service.conf,[Replace with your policy]
+```
+### Clash
+```
+rule-providers:
+  Apple_Services:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_Service.txt
+    path: ./Rules/Apple_Services.txt
+
+rules:
+  - RULE-SET,Apple_Services,[Replace with your policy]
+```
 
 ## Global Stream
 - 描述：包含 4gtv、AbemaTV、All4、Amazon Prime Video、Apple TV、Apple Music TV、Bahamut、BBC、Bilibili Intl、DAZN、Deezer、Disney+、Discovery+、DMM、encoreTVB、Fox Now、Fox+、HBO GO/Now/Max/Asia、Hulu、HWTV、JOOX、Jwplayer、KKBOX、KKTV、Line TV、Naver TV、myTV Super、Netflix、niconico、Now E、Paramount+、PBS、Peacock、Pandora、PBS、Pornhub、SoundCloud、PBS、Spotify、TaiwanGood、Tiktok Intl、Twitch、ViuTV、ShowTime、iQiYi Global、Himalaya Podcast、Overcast、WeTV 的规则组
