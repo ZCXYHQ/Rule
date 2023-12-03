@@ -18,7 +18,7 @@ rule-providers:
     behavior: domain
     format: text
     interval: 43200
-    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_CDN.txt
+    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_CDN.yaml
     path: ./Rules/apple_cdn.txt
 
 rules:
@@ -38,7 +38,7 @@ rule-providers:
     behavior: classical
     format: text
     interval: 43200
-    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_Service.txt
+    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_Service.yaml
     path: ./Rules/Apple_Services.txt
 
 rules:
@@ -61,14 +61,14 @@ rule-providers:
     behavior: classical
     format: text
     interval: 43200
-    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Stream.conf
+    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Stream.yaml
     path: ./Rules/stream.txt
   Stream_IP:
     type: http
     behavior: classical
     format: text
     interval: 43200
-    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Stream_IP.conf
+    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Stream_IP.yaml
     path: ./Rules/stream_ip.txt
 
 rules:
