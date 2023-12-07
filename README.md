@@ -13,13 +13,13 @@ DOMAIN-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_CDN.conf,[Re
 ### Clash
 ```
 rule-providers:
-  Apple_CDN:
-    type: http
-    behavior: domain
-    format: text
-    interval: 43200
-    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_CDN.yaml
-    path: ./Rules/apple_cdn.txt
+    Apple_CDN:
+      type: http
+      behavior: domain
+      format: text
+      path: ./Rules/apple_cdn.yaml
+      url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_CDN.yaml
+      interval: 43200
 
 rules:
   - RULE-SET,Apple_CDN,[Replace with your policy]
@@ -33,13 +33,13 @@ RULE-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_Service.conf,[
 ### Clash
 ```
 rule-providers:
-  Apple_Services:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_Service.yaml
-    path: ./Rules/Apple_Services.txt
+    Apple_Services:
+      type: http
+      behavior: classical
+      format: text
+      path: ./Rules/Apple_Services.yaml
+      url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_Service.yaml
+      interval: 43200
 
 rules:
   - RULE-SET,Apple_Services,[Replace with your policy]
@@ -56,20 +56,20 @@ RULE-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Stream_IP.conf,[Repl
 ### Clash
 ```
 rule-providers:
-  Stream:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Stream.yaml
-    path: ./Rules/stream.txt
-  Stream_IP:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Stream_IP.yaml
-    path: ./Rules/stream_ip.txt
+    Stream:
+      type: http
+      behavior: classical
+      format: text
+      path: ./Rules/Stream.yaml
+      url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Clash/Stream.yaml
+      interval: 43200
+    Stream_IP:
+      type: http
+      behavior: classical
+      format: text
+      path: ./Rules/Stream_IP.yaml
+      url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Clash/Stream_IP.yaml
+      interval: 43200
 
 rules:
   - RULE-SET,Stream,[Replace with your policy]
