@@ -1,67 +1,39 @@
 ########################################
-# LANIAKEA Ruleset - Stream Services: All
-# Last Updated: 2023-11-01T08:45:11.631Z
-# Size: 342
+# LANIAKEA Ruleset - Stream Services: Personal
+# Last Updated: 2023-12-13T09:45:11.631Z
+# Size: 248
 # License: AGPL 3.0
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
-# - 4gtv
 # - AbemaTV
 # - Amazon Prime Video
-# - All4
 # - Apple TV
 # - Apple Music TV
 # - Bahamut
 # - BBC
 # - Bilibili International
 # - DAZN
-# - Deezer
 # - Disney+
 # - Discovery+
 # - DMM
-# - encoreTVB
-# - Fox Now
-# - Fox+
-# - HBO Go / HBO Now / HBO Max
+# - E-Hentai
 # - HBO Asia
-# - Himalaya FM
 # - Hulu
-# - HWTV
 # - iQiYi Global
-# - ITV
-# - JOOX
-# - KKBOX
 # - KKTV
-# - Line TV
-# - LiTV
 # - Max
-# - My5
 # - myTV Super
 # - Netflix
-# - Naver TV
 # - niconico
 # - Now E
-# - Overcast FM
 # - Paramount+
-# - PBS
-# - Peacock
-# - Pandora
 # - Pornhub
-# - SoundCloud
 # - Spotify
-# - TaiwanGood
-# - TIDAL
 # - TikTok
 # - TVB Anywhere
 # - Twitch
 # - ViuTV
-# - WeTV
-# - YouTube
-# - YouTube Music
-# - SHOWTIME
 ########################################
-DOMAIN-SUFFIX,4gtv.tv
-DOMAIN,4gtvfreepcvod-cds.cdn.hinet.net
 DOMAIN-KEYWORD,abematv.akamaized.net
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
@@ -106,9 +78,6 @@ DOMAIN-SUFFIX,fls-na.amazon.com
 USER-AGENT,InstantVideo.US*
 USER-AGENT,Prime%20Video*
 PROCESS-NAME,com.amazon.avod.thirdpartyclient
-DOMAIN-SUFFIX,c4assets.com
-DOMAIN-SUFFIX,channel4.com
-USER-AGENT,All4*
 DOMAIN,ocvideo.apple.com
 DOMAIN,linear.tv.apple.com
 DOMAIN,play-edge.itunes.apple.com
@@ -153,9 +122,6 @@ DOMAIN-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net
 DOMAIN-SUFFIX,dcalivedazn.akamaized.net
 DOMAIN-SUFFIX,dcblivedazn.akamaized.net
 USER-AGENT,DAZN*
-DOMAIN-SUFFIX,deezer.com
-DOMAIN-SUFFIX,dzcdn.net
-USER-AGENT,Deezer*
 DOMAIN,cdn.registerdisney.go.com
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,disney-plus.net
@@ -173,32 +139,10 @@ DOMAIN-SUFFIX,dnitv.com
 DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,dmm-extension.com
-DOMAIN,bcbolt446c5271-a.akamaihd.net
-DOMAIN,edge.api.brightcove.com
-DOMAIN-SUFFIX,encoretvb.com
-USER-AGENT,encoreTVB*
 USER-AGENT,TVer-Release*
 DOMAIN-SUFFIX,tver.jp
-DOMAIN-SUFFIX,fox.com
-DOMAIN-SUFFIX,foxdcg.com
-DOMAIN-SUFFIX,uplynk.com
-USER-AGENT,FOX%20NOW*
-DOMAIN,dashasiafox.akamaized.netflix
-DOMAIN,staticasiafox.akamaized.net
-DOMAIN-SUFFIX,foxplus.com
-DOMAIN-SUFFIX,theplatform.com
-USER-AGENT,FOXPlus*
-DOMAIN-SUFFIX,hbo.com
-DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hbonow.com
-USER-AGENT,HBO%20NOW*
-USER-AGENT,HBOMAX*
-DOMAIN-SUFFIX,hbomax.com
-DOMAIN-SUFFIX,hbomaxcdn.com
-DOMAIN-SUFFIX,hboasia.com
-DOMAIN-SUFFIX,hbogoasia.com
-DOMAIN-SUFFIX,hbogoasia.hk
-DOMAIN-KEYWORD,.hbogoasia.
+DOMAIN-SUFFIX,e-hentai.org
+DOMAIN-SUFFIX,exhentai.org
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,bcbolthboa-a.akamaihd.net
 DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
@@ -208,17 +152,17 @@ DOMAIN,hboasia2-i.akamaihd.net
 DOMAIN,hboasia3-i.akamaihd.net
 DOMAIN,hboasia4-i.akamaihd.net
 DOMAIN,hboasia5-i.akamaihd.net
+DOMAIN,hboasialive.akamaized.net
 DOMAIN,hbogoprod-vod.akamaized.net
-DOMAIN,manifest.prod.boltdns.net
+DOMAIN,hbolb.onwardsmg.com
+DOMAIN,hbounify-prod.evergent.com
 DOMAIN,players.brightcove.net
 DOMAIN,s3-ap-southeast-1.amazonaws.com
-DOMAIN,hboasialive.akamaized.net
-DOMAIN,hbounify-prod.evergent.com
-DOMAIN,hbolb.onwardsmg.com
-USER-AGENT,HBO%20GO%20PROD%20HKG*
-USER-AGENT,HBO*
-USER-AGENT,Himalaya*
-DOMAIN-SUFFIX,himalaya.com
+DOMAIN,wmff.warnermediacdn.com
+DOMAIN-SUFFIX,hbogoasia.com
+DOMAIN-SUFFIX,hbogoasia.hk
+DOMAIN-KEYWORD,.hbogoasia.
+USER-AGENT,HBO%20GO%20PROD*
 DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,hulu.jp
@@ -229,9 +173,6 @@ DOMAIN-SUFFIX,hulustream.com
 DOMAIN-SUFFIX,hjholdings.jp
 USER-AGENT,Hulu*
 PROCESS-NAME,com.hulu.plus
-USER-AGENT,HWTVMobile*
-DOMAIN-SUFFIX,5itv.tv
-DOMAIN-SUFFIX,ocnttv.com
 DOMAIN-SUFFIX,iq.com
 DOMAIN,cache.video.iqiyi.com
 DOMAIN,cache-video.iq.com
@@ -241,39 +182,16 @@ DOMAIN-SUFFIX,inter.iqiyi.com
 DOMAIN-SUFFIX,intl-rcd.iqiyi.com
 DOMAIN-SUFFIX,intl-subscription.iqiyi.com
 DOMAIN-SUFFIX,intl.iqiyi.com
-DOMAIN,itvpnpmobile-a.akamaihd.net
-DOMAIN-SUFFIX,itv.com
-DOMAIN-SUFFIX,itvstatic.com
-USER-AGENT,ITV_Player*
-DOMAIN-SUFFIX,joox.com
-DOMAIN-KEYWORD,jooxweb-api
-USER-AGENT,JOOX*
-USER-AGENT,WeMusic*
-PROCESS-NAME,com.tencent.ibg.joox
-DOMAIN-SUFFIX,kfs.io
-DOMAIN-SUFFIX,kkbox.com
-DOMAIN-SUFFIX,kkbox.com.tw
-DOMAIN-SUFFIX,kkbox-prime.com
-DOMAIN-SUFFIX,kktix.com
-DOMAIN-SUFFIX,kk.stream
+DOMAIN,kktv-theater.kk.stream
+DOMAIN,theater-kktv.cdn.hinet.net
 DOMAIN-SUFFIX,kktv.com.tw
 DOMAIN-SUFFIX,kktv.me
-USER-AGENT,com.kktv.ios.kktv*
 USER-AGENT,KKTV*
-DOMAIN,d3c7rimkq79yfu.cloudfront.net
-DOMAIN-SUFFIX,linetv.tw
-USER-AGENT,LINE%20TV*
-PROCESS-NAME,com.linecorp.linetv
-DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
-DOMAIN-SUFFIX,litv.tv
+USER-AGENT,com.kktv.ios.kktv*
 USER-AGENT,Max*
 PROCESS-NAME,com.wbd.stream
 DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,discomax.com
-DOMAIN,d349g9zuie06uo.cloudfront.net
-DOMAIN-SUFFIX,channel5.com
-DOMAIN-SUFFIX,my5.tv
-USER-AGENT,My5*
 DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,tvb.com
 USER-AGENT,mytv*
@@ -295,17 +213,12 @@ DOMAIN-KEYWORD,dualstack.ichnaea-web-
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
 USER-AGENT,Argo*
 PROCESS-NAME,com.netflix.mediaclient
-USER-AGENT,Naver%20TV*
-DOMAIN-SUFFIX,tv.naver.com
-DOMAIN-SUFFIX,smartmediarep.com
 DOMAIN-SUFFIX,dmc.nico
 DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,nimg.jp
 DOMAIN-SUFFIX,socdm.com
 USER-AGENT,Niconico*
 DOMAIN-SUFFIX,nowe.com
-USER-AGENT,Overcast*
-DOMAIN-SUFFIX,overcast.fm
 USER-AGENT,PPlus*
 DOMAIN-SUFFIX,cbsi.com
 DOMAIN-SUFFIX,cbsaavideo.com
@@ -315,18 +228,9 @@ DOMAIN,cbsi.live.ott.irdeto.com
 DOMAIN,cbsplaylistserver.aws.syncbak.com
 DOMAIN,cbsservice.aws.syncbak.com
 DOMAIN,link.theplatform.com
-USER-AGENT,PBS*
-DOMAIN-SUFFIX,pbs.org
-USER-AGENT,PeacockMobile*
-DOMAIN-SUFFIX,peacocktv.com
-DOMAIN-SUFFIX,pandora.com
-USER-AGENT,Pandora*
 DOMAIN-SUFFIX,phprcdn.com
 DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,pornhubpremium.com
-DOMAIN-SUFFIX,sndcdn.com
-DOMAIN-SUFFIX,soundcloud.com
-USER-AGENT,SoundCloud*
 DOMAIN-KEYWORD,-spotify-com
 DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,scdn.co
@@ -346,12 +250,6 @@ DOMAIN-SUFFIX,spotifynewsroom.jp
 DOMAIN-SUFFIX,spotilocal.com
 DOMAIN-SUFFIX,tospotify.com
 USER-AGENT,*Spotify*
-DOMAIN,hamifans.emome.net
-DOMAIN-SUFFIX,skyking.com.tw
-USER-AGENT,TaiwanGood*
-USER-AGENT,TIDAL*
-DOMAIN-SUFFIX,tidal.com
-DOMAIN-SUFFIX,tidalhifi.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ibyteimg.com
@@ -384,22 +282,4 @@ PROCESS-NAME,com.viu.pad
 PROCESS-NAME,com.viu.phone
 PROCESS-NAME,com.vuclip.viu
 USER-AGENT,Viu*
-USER-AGENT,WeTV*
-DOMAIN-SUFFIX,wetv.vip
-DOMAIN-SUFFIX,wetvinfo.com
-DOMAIN,youtubei.googleapis.com
-DOMAIN,youtube.googleapis.com
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,withyoutube.com
-DOMAIN-SUFFIX,youtubeeducation.com
-DOMAIN-SUFFIX,youtubegaming.com
-DOMAIN-SUFFIX,youtubekids.com
-DOMAIN-SUFFIX,youtube-nocookie.com
-USER-AGENT,com.google.ios.youtube*
-USER-AGENT,YouTube*
-USER-AGENT,com.google.ios.youtubemusic*
-USER-AGENT,YouTubeMusic*
-DOMAIN-SUFFIX,sho.com
-DOMAIN-SUFFIX,showtime.com
 ################# END ###################
