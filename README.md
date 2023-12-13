@@ -2,29 +2,8 @@
 
 > 免责声明：该项目仅供个人学习、交流，请勿用于非法用途，请勿用于生产环境  
 
-## Apple CDN
-- 描述：规则组包含 Apple, Inc. 在中华人民共和国完成工信部 ICP 备案和公安网备、且在中华人民共和国境内提供 HTTP 服务的域名，如果由于某些原因需要代理其中部分域名，请自行针对域名编写规则、并添加到当前规则组之前。
-- 数据来源 felixonmars/dnsmasq-china-list
-
-### Surge
-```
-DOMAIN-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_CDN.conf,[Replace with your policy]
-```
-### Clash
-```
-rule-providers:
-    Apple_CDN:
-      type: http
-      behavior: domain
-      path: ./Rules/apple_cdn.yaml
-      url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_CDN.yaml
-      interval: 43200
-
-rules:
-  - RULE-SET,Apple_CDN,[Replace with your policy]
-```
 ## Apple Service
-- 描述：该文件包含Apple, Inc.在中国大陆没有PoP的域名。
+- 描述：该文件包含Apple,Inc在中国大陆没有PoP的域名。
 ### Surge
 ```
 RULE-SET,https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple_Service.conf,[Replace with your policy]
