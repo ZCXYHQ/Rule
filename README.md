@@ -44,7 +44,35 @@ rules:
 ```
 
 ## Global Stream
-- 描述：包含 4gtv、AbemaTV、All4、Amazon Prime Video、Apple TV、Apple Music TV、Bahamut、BBC、Bilibili Intl、DAZN、Deezer、Disney+、Discovery+、DMM、encoreTVB、Fox Now、Fox+、HBO GO/Now/Max/Asia、Hulu、HWTV、JOOX、Jwplayer、KKBOX、KKTV、Line TV、Naver TV、myTV Super、Netflix、niconico、Now E、Paramount+、PBS、Peacock、Pandora、PBS、Pornhub、SoundCloud、PBS、Spotify、TaiwanGood、Tiktok Intl、Twitch、ViuTV、ShowTime、iQiYi Global、Himalaya Podcast、Overcast、WeTV 的规则组
+- 描述：规则组包含
+# - AbemaTV
+# - Amazon Prime Video
+# - Apple TV
+# - Apple Music TV
+# - Bahamut
+# - BBC
+# - Bilibili International
+# - DAZN
+# - Disney+
+# - Discovery+
+# - DMM
+# - E-Hentai
+# - HBO Asia
+# - Hulu
+# - iQiYi Global
+# - KKTV
+# - Max
+# - myTV Super
+# - Netflix
+# - niconico
+# - Now E
+# - Paramount+
+# - Pornhub
+# - Spotify
+# - TikTok
+# - TVB Anywhere
+# - Twitch
+# - ViuTV
 
 ### Surge
 ```
