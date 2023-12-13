@@ -23,37 +23,8 @@ rules:
 ```
 
 ## Global Stream
-- 描述：规则组包含
-```
-- AbemaTV
-- Amazon Prime Video
-- Apple TV
-- Apple Music TV
-- Bahamut
-- BBC
-- Bilibili International
-- DAZN
-- Disney+
-- Discovery+
-- DMM
-- E-Hentai
-- HBO Asia
-- Hulu
-- iQiYi Global
-- KKTV
-- Max
-- myTV Super
-- Netflix
-- niconico
-- Now E
-- Paramount+
-- Pornhub
-- Spotify
-- TikTok
-- TVB Anywhere
-- Twitch
-- ViuTV
-```
+- 人工维护
+- 描述：规则组包含AbemaTV、Amazon Prime Video、Apple TV、Apple Music TV、Bahamut、BBC、Bilibili International、DAZN、Disney+、Discovery+、DMM、E-Hentai、HBO Asia、Hulu、iQiYi Global、KKTV、Max、myTV Super、Netflix、niconico、Now E、Paramount+、Pornhub、Spotify、TikTok、TVB Anywhere、Twitch、ViuTV
 
 ### Surge
 ```
