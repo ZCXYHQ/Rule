@@ -1,64 +1,38 @@
-########################################
+we########################################
 # LANIAKEA Ruleset - Stream Services' IPs: All
 # Last Updated: 2023-11-01T08:45:11.638Z
 # Size: 19
 # License: AGPL 3.0
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
-# - 4gtv
 # - AbemaTV
 # - Amazon Prime Video
-# - All4
 # - Apple TV
 # - Apple Music TV
 # - Bahamut
 # - BBC
 # - Bilibili International
 # - DAZN
-# - Deezer
 # - Disney+
 # - Discovery+
 # - DMM
-# - encoreTVB
-# - Fox Now
-# - Fox+
-# - HBO Go / HBO Now / HBO Max
+# - E-Hentai
 # - HBO Asia
-# - Himalaya FM
 # - Hulu
-# - HWTV
 # - iQiYi Global
-# - ITV
-# - JOOX
-# - KKBOX
 # - KKTV
-# - Line TV
-# - LiTV
 # - Max
-# - My5
 # - myTV Super
 # - Netflix
-# - Naver TV
 # - niconico
 # - Now E
-# - Overcast FM
 # - Paramount+
-# - PBS
-# - Peacock
-# - Pandora
 # - Pornhub
-# - SoundCloud
 # - Spotify
-# - TaiwanGood
-# - TIDAL
 # - TikTok
 # - TVB Anywhere
 # - Twitch
 # - ViuTV
-# - WeTV
-# - YouTube
-# - YouTube Music
-# - SHOWTIME
 ########################################
 IP-CIDR,23.246.18.0/23,no-resolve
 IP-CIDR,37.77.184.0/21,no-resolve
@@ -78,5 +52,4 @@ IP-CIDR6,2620:10c:7000::/44,no-resolve
 IP-CIDR6,2a00:86c0::/32,no-resolve
 IP-CIDR6,2a03:5640::/32,no-resolve
 IP-CIDR,35.186.224.47/32,no-resolve
-IP-CIDR,150.109.28.51/32,no-resolve
 ################# END ###################
