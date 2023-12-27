@@ -5,19 +5,19 @@
 ## AI
 - 人工维护
 - 描述：文件包含了Claude、Gemini、OpenAI的规则。
-- 使用说明：RULE-SET
+- 使用说明：Surge使用RULE-SET，Clash使用behavior: classical
 ### Surge
 ```
 https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/AI.list
 ```
 ### Clash
 ```
-    AI:
-      type: http
-      behavior: classical
-      url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Clash/AI.yaml
-      path: ./Rules/AI.yaml
-      interval: 86400
+  AI:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Clash/AI.yaml
+    path: ./Rules/AI.yaml
+    interval: 86400
 ```
 
 ## Apple
