@@ -10,6 +10,15 @@
 ```
 https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/AI.list
 ```
+### Clash
+```
+  AI:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Clash/AI.yaml
+    path: ./Rules/AI.yaml
+    interval: 86400
+```
 
 ## Apple
 - 人工维护
