@@ -8,14 +8,14 @@
 - 使用说明：Surge使用RULE-SET，Clash使用behavior: classical
 ### Surge
 ```
-https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/AI.list
+https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@master/Surge/AI.list
 ```
 ### Clash
 ```
   AI:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Clash/AI.yaml
+    url: https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@master/Clash/AI.yaml
     path: ./Rules/AI.yaml
     interval: 86400
 ```
@@ -26,7 +26,7 @@ https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/AI.list
 - 使用说明：RULE-SET
 ### Surge
 ```
-https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple.list
+https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@master/Surge/Apple.list
 ```
 
 ## iCloud
@@ -35,7 +35,7 @@ https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/Apple.list
 - 使用说明：DOMAIN-SET
 ### Surge
 ```
-https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/iCloud.list
+https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@master/Surge/iCloud.list
 ```
 
 ## AsiaMedia
@@ -44,5 +44,5 @@ https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/iCloud.list
 - 使用说明：RULE-SET
 ### Surge
 ```
-https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@main/Surge/AsiaMedia.list
+https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@master/Surge/AsiaMedia.list
 ```
