@@ -32,7 +32,7 @@ https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@master/Surge/Apple.list
 ## iCloud
 - 人工维护
 - 描述：文件包含了iClude的规则。
-- 使用说明：DOMAIN-SET
+- 使用说明：RULE-SET
 ### Surge
 ```
 https://cdn.jsdelivr.net/gh/ZCXYHQ/Rule@master/Surge/iCloud.list
